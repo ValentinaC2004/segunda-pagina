@@ -2,7 +2,7 @@ name: documento yml
   on:
     push:
       branches: 
-        - branch1
+        - main
 
       jobs:
         pagina-practica:
