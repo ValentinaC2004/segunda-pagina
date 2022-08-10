@@ -6,15 +6,14 @@ name: documento yml
 
       jobs:
         pagina-practica:
-        runs-on:
           steps:
-            - name: 
+            - name: pagina2
             uses:
 
-            - name: pagina
-            uses:
+            - name: pagina2
+            uses: actions/github-pages-deploy-action@4.1.4
             with:
-            branch: main
-            folder: .
+              branch: main
+              folder: .
             
 
