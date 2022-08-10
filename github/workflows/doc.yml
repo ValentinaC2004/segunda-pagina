@@ -8,10 +8,10 @@ name: documento yml
         pagina-practica:
         runs-on:
           steps:
-            name: 
+            - name: 
             uses:
 
-            name: pagina
+            - name: pagina
             uses:
             with:
             branch: branch1
