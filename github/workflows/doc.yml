@@ -1,0 +1,20 @@
+name: documento yml
+  on:
+    push:
+      branches: 
+        - branch1
+
+      jobs:
+        pagina-practica:
+        runs-on:
+          steps:
+            name: 
+            uses:
+
+            name: pagina
+            uses:
+            with:
+            branch: branch1
+            folder: .
+            
+
