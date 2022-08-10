@@ -14,7 +14,7 @@ name: documento yml
             - name: pagina
             uses:
             with:
-            branch: branch1
+            branch: main
             folder: .
             
 
